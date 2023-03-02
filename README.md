@@ -6,3 +6,7 @@ Creeper Player is media player (audio player). Fresh branch is experimental, wit
 (going from first to new version with concepts)
 
 Yes, we have design concepts, who know, what people like with designes, so we are open to experiments in this branch. And it creates for this, we collecting design ratings to make interface better.
+
+System requirements:
+Windows 7 or above
+.NET Framework 4.8
