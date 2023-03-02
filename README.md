@@ -9,4 +9,5 @@ Yes, we have design concepts, who know, what people like with designes, so we ar
 
 System requirements:
 Windows 7 or above
+and
 .NET Framework 4.8
