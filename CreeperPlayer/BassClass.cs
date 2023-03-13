@@ -23,6 +23,9 @@ namespace CreeperPlayer
             if (!InitDefaultDevice)
             {
                 InitDefaultDevice = Bass.BASS_Init(-1, hertz, BASSInit.BASS_DEVICE_DEFAULT, IntPtr.Zero);
+                
+                #region BASS.DLL plugins load
+                
                 if (InitDefaultDevice)
                 {
                     BassPluginsHandlers.Add(Bass.BASS_PluginLoad(Vars.BassPlugins + @"bass_aac.dll"));
@@ -55,6 +58,9 @@ namespace CreeperPlayer
                         }
                     }    
                 }
+                
+                #endregion
+                
             }
             return InitDefaultDevice;
         }
