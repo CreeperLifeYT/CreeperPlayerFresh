@@ -25,7 +25,7 @@ namespace CreeperPlayer
                 + "|True Audio|*.tta"
                 + "|Apple Lossless Audio Codec|*.alac"
                 + "|MusePack|*.vw"
-                + "|Musical Instrument Digital Interface|*.mid;*.midi";
+                //+ "|Musical Instrument Digital Interface|*.mid;*.midi";
             #endregion
         }
 
